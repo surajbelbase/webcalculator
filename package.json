@@ -32,19 +32,15 @@
 
     "start": "react-scripts start",
 
-    "predeploy": "npm run build",
-
-    "deploy": "gh-pages -d build",
-
     "build": "react-scripts build",
 
     "test": "react-scripts test",
 
     "eject": "react-scripts eject",
 
-    "preview:worker": "npm run build && wrangler dev",
+    "predeploy":"npm run build",
 
-    "deploy:worker": "npm run build && wrangler deploy"
+    "deploy" : "gh-pages -d build"
 
   },
 
